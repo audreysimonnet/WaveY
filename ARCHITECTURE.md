@@ -36,6 +36,10 @@ Giselle McNeill
 
   (02/04/2026)
 
+```
+mermaid
+
+
 classDiagram
   %% ===== Core runtime =====
   class App {
@@ -156,5 +160,6 @@ classDiagram
   TriviaCommand --> ActiveTrivia : session/state
   TriviaCommand --> EvaluateAnswer : grading logic
 
+```
 
 
